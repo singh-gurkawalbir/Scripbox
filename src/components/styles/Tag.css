@@ -1,0 +1,61 @@
+.container-tag {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+.search-tag {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.search-input-tag {
+  border: 1px solid transparent;
+  margin: 5px;
+  outline: none;
+  height: 20px;
+  font-size: 0.7rem;
+}
+
+.selected-item-tag {
+  display: flex;
+  align-items: center;
+}
+
+.formatted-tag {
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 19px;
+  font-size: small;
+  text-align: center;
+  align-items: center;
+  padding: 4px 8px;
+  margin: 3px 5px;
+}
+.cross-button-tag {
+  cursor: pointer;
+  margin-left: auto;
+}
+.item-list-tag {
+  font-size: 0.7rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-list-tag li {
+  cursor: pointer;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+.item-list-tag li:hover {
+  background-color: #f2f2f2;
+}
+
+.cross-button:hover {
+  color: gray;
+}

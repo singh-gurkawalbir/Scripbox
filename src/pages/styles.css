@@ -1,0 +1,55 @@
+.container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.labelText {
+  display: block;
+  font-size: small;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  height: 90%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
